@@ -69,7 +69,10 @@ switch (Console.ReadLine())
         payout = winnings + stake;
         Console.WriteLine("Payout = $" + payout);
         break;
-
+    
+    default:
+        Console.WriteLine("Oops");
+        break;
 }
 
 
